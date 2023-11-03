@@ -1,0 +1,26 @@
+.glowna-section{
+    display:flex;
+    align-items:stretch;
+    justify-content: space-between;
+    flex-grow:1;
+}
+.glowna-section .img-wrapper{
+    flex-grow: 1;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.glowna-section .group-photo{
+    background-image: url("zdjęcia/grupowe_AMPDO.jpg");
+    flex-grow: 1;
+    max-height: 100vh;
+    min-width: 45vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.glowna-section-tekst{
+    margin-top:30vh;
+    margin-right:13vw;
+}

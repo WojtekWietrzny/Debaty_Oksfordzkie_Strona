@@ -1,0 +1,53 @@
+.turnieje-section{
+    display:flex;
+    align-items:stretch;
+    justify-content: space-between;
+    flex-grow:1;
+}
+.turnieje-section .img-wrapper{
+    flex-grow: 1;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.turnieje-section .debaty-photo{
+    background-image: url("zdjęcia/ja-na-debatach.JPG");
+    flex-grow: 1;
+    max-height: 80vh;
+    min-width: 30vw;
+    margin-right:2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.turnieje-section-tekst{
+    margin-top:10vh;
+    margin-left:5vw;
+    margin-right:0;
+    font-weight: 500;
+    font-size: 1.5rem;
+    word-wrap:break-word;
+    align-items: center;
+}
+.turnieje-section-tekst .p{
+    text-align: right;
+    font-size: 3rem;
+}
+
+.turnieje-section .turnieje-list{
+    list-style-type: disc;
+}
+
+.turnieje-section .turnieje-list li{
+    font-size: 30px;
+}
+
+.turnieje-list a{
+    color:white;
+    text-decoration: none;
+}
+
+.turnieje-list a:hover{
+    color: #adadad
+}

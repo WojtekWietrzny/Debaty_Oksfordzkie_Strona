@@ -1,0 +1,26 @@
+.zasady-section{
+    display:flex;
+    justify-content: center;
+    flex-grow:1;
+}
+.zasady-section-tekst{
+    margin-top:7vh;
+    margin-left:3vw;
+    margin-right:3vw;
+    font-weight: 400;
+    font-size: 1.5rem;
+    word-wrap:break-word;
+    text-align:center;
+}
+
+.zasady-title{
+    padding-top:5vh;
+    padding-bottom:5vh;
+    height:5vh;
+    font-weight:500;
+    font-size: 3em;
+    margin-bottom:1rem;
+    margin-top:0;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,32 @@
+.o-mnie-section{
+    display:flex;
+    align-items:stretch;
+    justify-content: space-between;
+    flex-grow:1;
+}
+.o-mnie-section .img-wrapper{
+    flex-grow: 1;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.o-mnie-section .wesele-photo{
+    background-image: url("zdjęcia/ja na weselu.png");
+    flex-grow: 1;
+    max-height: 75vh;
+    min-width: 45vw;
+    margin-right:2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.o-mnie-section-tekst{
+    margin-top:10vh;
+    margin-left:7vw;
+    margin-right:0vw;
+    font-weight: 400;
+    font-size: 1.5rem;
+    word-wrap:break-word;
+    text-align:center;
+}

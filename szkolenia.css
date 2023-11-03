@@ -1,0 +1,29 @@
+.szkolenia-section{
+    padding-top:7vh;
+}
+
+.szkolenia-title{
+    padding-top:5vh;
+    padding-bottom:5vh;
+    height:5vh;
+    font-weight:500;
+    font-size: 3em;
+    margin-bottom:1rem;
+    margin-top:0;
+    text-align: center;
+    justify-content: center;
+}
+
+.szkolenia-section-lista{
+    margin-top:10vh;
+    margin-left:27vw;
+    margin-right:27vw;
+    font-weight: 400;
+    font-size: 1.5rem;
+    word-wrap:break-word;
+}
+.szkolenia-section-lista li {
+    padding-left:30px;
+    margin-bottom:7px;
+    font-size: 30px;
+}

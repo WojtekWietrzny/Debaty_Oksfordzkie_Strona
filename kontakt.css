@@ -1,0 +1,88 @@
+.btn {
+    color: white;
+    background-color: #99966A;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.btn:hover {
+    background-color: #A29F7B;
+}
+
+.btn:focus {
+    background-color: #ADAA87;
+}
+
+.kontakt-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-grow: 1;
+}
+.kontakt-form{
+    background-color: #000000;
+    width:50vw;
+    min-height:55vh;
+    max-height:50vh;
+    max-width: 50%;
+    padding: 2rem 4rem;
+    border-radius:1.5rem;
+    margin-right:5vw;
+    margin-top:15vh;
+    align-items:center;
+    justify-content: center;
+}
+
+.kontakt-form input{
+    height:4vh;
+    border-radius:0.5rem;
+    margin-top:1rem;
+    outline: none;
+    border: none;
+}
+
+.kontakt-form .input-group{
+    margin-bottom:1.5rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.kontakt-form .input-group-long{
+    margin-bottom:2rem;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.img-wrapper{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vw;
+}
+.pies-dzwoniacy{
+    background-image: url("zdjęcia/pies dzwoniący.png");
+    flex-grow: 1;
+    max-height:50vh;
+    min-width:40vw;
+    max-width: 50%;
+    margin-right:0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p{
+    font-size:1.3rem;
+    text-align:center;
+}
